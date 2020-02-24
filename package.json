@@ -1,0 +1,24 @@
+{
+  "name": "sqsreader",
+  "version": "1.0.0",
+  "description": "An alternative service for advanced SQS polling. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisSmithSDC/SQSReader.git"
+  },
+  "author": "Chris Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisSmithSDC/SQSReader/issues"
+  },
+  "homepage": "https://github.com/ChrisSmithSDC/SQSReader#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "sqs-consumer": "^5.4.0"
+  }
+}
